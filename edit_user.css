@@ -1,0 +1,93 @@
+.form-group {
+    margin-bottom: 1rem;
+  
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  select:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #000000;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+      box-shadow 0.15s ease-in-out;
+    color: #fff;
+  }
+  
+  .flash-message {
+    background-color: #25c465;
+    border: 1px solid #42d076;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .flash-message-close {
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .flash-message-close:hover,
+  .flash-message-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

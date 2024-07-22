@@ -1,0 +1,64 @@
+.audit-box {
+    border: 1px solid #c3c2c2;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ebd8c6;
+  }
+  
+  .audit-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .audit-table th {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .audit-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .audit-table td:first-child {
+    font-weight: bold;
+  }
+  
+  .audit-table td:last-child {
+    color: #2d2c2c;
+    font-size: 0.9em;
+  }
+
+  .user-selection {
+    margin-bottom: 20px;
+  }
+  
+  .user-selection form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-selection label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .user-selection select {
+    padding: 5px;
+  }
+  
+  .user-selection button {
+    padding: 5px 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 5px;
+  }
+  
+  .user-selection button:hover {
+    background-color: #4b1c02;
+  }
+  

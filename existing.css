@@ -1,0 +1,51 @@
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    max-width: 700px; /* adjust as needed */
+  }
+  h2{
+    display: inline-block;
+  }
+  .project h3 {
+    margin: 0;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 800px; /* adjust to your desired width */
+  }
+  .edit-button {
+    background-color: #040404;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .project p {
+    margin: 10px 0;
+  }
+  
+  .project-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project-details .detail {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+  }
+  
+  .project-details .detail:nth-child(odd) {
+    clear: left;
+  }
+  

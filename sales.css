@@ -1,0 +1,155 @@
+/* Page title */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Flash message */
+.flash-message {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: #ffc107;
+  color: #fff;
+}
+
+/* Sales form */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="date"],
+button[type="submit"] {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Sales data table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+/* Total sales amount */
+.total-sales {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Sales wrapper */
+.sales-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Monthly Sales */
+.monthly-sales {
+  flex: 0 0 40%; /* Adjust the flex property to occupy 50% of the container */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+/* Yearly Sales */
+.yearly-sales {
+  flex: 0 0 40%; /* Adjust the flex property to occupy 50% of the container */
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.fa-chart-bar,
+.fa-chart-line {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+
+.sales-item {
+  width: 48%;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.sales-item-title h3 {
+  margin: 0;
+}
+
+.sales-item-amount h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Additional styles */
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.calendar-sales-wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.calendar {
+  flex: 1 0 70%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+
+.sales-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px; /* Adjust the gap as needed */
+}
+
+form {
+  flex: 20px 0 100px; /* Adjust the width as needed */
+
+}
+
+.sales-data {
+  flex: 10px 0 0px; /* Adjust the width as needed */
+  margin-left: 30px;
+  background-color: #aeaca9;
+  padding: 10px;
+
+
+}
+

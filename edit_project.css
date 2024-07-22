@@ -1,0 +1,57 @@
+label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #040404;
+  }
+  
+  textarea {
+    height: 100px;
+    font-size: 18px;
+
+  }
+  
+  br {
+    clear: both;
+  }
+  form{
+    margin-left: 20px;
+    border: 1px solid #bbb8b6;
+    border-radius: 4px;
+    padding: 8px;
+    width: 80%;
+    margin-top: 0;
+  }

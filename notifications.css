@@ -1,0 +1,41 @@
+.notification-box {
+    border: 1px solid #a7a6a6;
+    padding: 5px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+  }
+  
+  .notification-box.unread {
+    background-color: #979595; /* Change the background color to your desired color */
+    /* Add any additional styling for unread notifications */
+  }
+  
+  .notification-box .notification {
+    background-color: #bebcbc;
+    padding: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notification-box .notification.read {
+    background-color: #8d8b8b;
+  }
+  
+  .notification-box .notification:hover {
+    background-color: #959595;
+  }
+  
+  .notification-box .notification h3 {
+    font-size: 12px;
+    color: #828282;
+  }
+  
+  .notification-box .notification p {
+    margin-bottom: 0px;
+    padding: 0;
+  }
+  
+  .notification-box .notification-message {
+    color: #000000; /* Change the color code to your desired color */
+  }
+  

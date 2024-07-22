@@ -1,0 +1,80 @@
+
+h1.eyy {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  form {
+    max-width: 500px;
+    padding: 20px;
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-self: center;
+    justify-content: center;
+  }
+  .form-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  .user-level-permissions label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Optional: Add additional styles as needed */
+  
+  .user-level-permissions {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px; /* Adjust the gap between checkboxes as needed */
+  }
+  
+  .user-level-permissions label {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .user-level-permissions label input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .user-level-permissions br {
+    display: none;
+  }
+  

@@ -1,0 +1,72 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border:#4CAF50;
+    
+  }
+  h1.awits{
+    text-align: center;
+  }
+  
+  form > * {
+    flex-basis: 100%;
+    margin: 10px;
+  }
+  
+  form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="date"],
+  form input[type="number"],
+  form textarea,
+  form select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  form select {
+    margin-bottom: 20px;
+  }
+  
+  form button[type="submit"],
+  form button[type="button"] {
+    background-color: #0d0e0d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  form button[type="submit"] {
+    width: auto;
+  }
+  
+  form a {
+    color: #4CAF50;
+    font-size: 16px;
+  }
+  
+  form .date-inputs {
+    display: flex;
+  }
+  
+  form .date-inputs input {
+    width: calc(50% - 5px);
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
